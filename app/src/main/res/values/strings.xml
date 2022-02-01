@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">pilon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string-array name="nama_calon">
+        <item>DANI-FATMA</item>
+        <item>APPI-RAHMAN</item>
+        <item>DAENG ICAL-FADLI</item>
+        <item>NONE-ZUNNUN</item>
+    </string-array>
+    <string-array name="jumlah_suara">
+        <item>43.12%</item>
+        <item>40.05%</item>
+        <item>20.05%</item>
+        <item>16.72%</item>
+    </string-array>
+    <string name="halaman1">Scan Barcode</string>
+    <string name="halaman2">Akun Management</string>
+    <string name="halaman3">Result</string>
+
+    <string name="deskripsi1">Dalam fitur ini anda dapat memilih calon lewat barcode yang telah disediakan </string>
+    <string name="deskripsi2">Dalam fitur ini dapat memanage user mengenai akun</string>
+    <string name="deskripsi3">Dalam fitur ini dapat melihat hasil pemilihan secara realtime</string>
+    <string-array name="pengaturan">
+        <item>Keamanan Akun</item>
+        <item>Bahasa</item>
+    </string-array>
+    <string-array name="deskripsi">
+        <item>Kata sandi</item>
+        <item>Ubah bahasa</item>
+    </string-array>
+    <string-array name="seputar_pilon">
+        <item>Kenali Pilon</item>
+        <item>Syarat dan Ketentuan</item>
+        <item>Kebijakan Privasi</item>
+    </string-array>
+    <string name="deskripsi_pilon">Pilon merupakan aplikasi Pemilihan Umum. Fitur utama yang ditawarkan aplikasi ini adalah metode yang digunakan untuk Pemilu adalah dengan memanfaatkan teknologi barcode</string>
+
+    <string name="syarat1">MOHON UNTUK MEMBACA SELURUH SYARAT DAN KETENTUAN PENGGUNAAN SERTA KERBIJAKAN PRIVASI YANG TERLAMPIR DENGAR CERMAT DAN SAKSAMA SEBELUM MENGGUNAKAN SETIAP FITUR DAN/ATAU LAYANAN YANG TERSEDIA DALAM PLATFORM PILON</string>
+    <string name="syarat2">Syarat dan Ketentuan Penggunaan ("Ketentuan Penggunaan") ini merupakan suatu perjanjian sah terkait tata cara dan persyaratan penggunaan fitur dan/atau layanan ("Layanan") Platform Pilon ("Platform) antara Pengguna ("Anda") dengan pengelola Platform, yaitu PT Media Carakdek ("Kami").Dengan mengunduh dan/atau memasang dan/atau menggunakan Platform dan/atau menikmati Layanan Kami, Anda setuju bahwa Anda telah membaca, memahami, mengetahui, menerima, dan menyetuhui seluruh infoormasi syarat-syarat, dan ketentuan-ketentuan penggunaan Platform yang terdapat dalam Ketentuan Penggunaan ini.</string>
+    <string name="syarat3">Apabila Anda tidak setuju terhadap salah satu, sebagian, atau seluruh isi yang tertuang dalam Ketentuan Penggunaan dan Kebijakan Privasi ini, silakan untuk menghapus Platfom dalam perangkat elektronik Anda dan/atau tidak mengakses Platform dan/atau tidak menggunakan Layanan Kami.untuk dapat diperhatikan pula bahwa Ketentuan Penggunaan dan Kebijakan Privasi dapat diperbaharui dari waktu ke waktu.</string>
+    <string name="ketentuan1">a. Platform adalah aplikasi (versi Android atau iOS), aplikasi web (aplikasi yang dapat diakses menggunakan web).</string>
+    <string name="ketentuan2">b. Koneksi internet diperlukan untuk dapat menggunakan Layanan dan biaya terkait penggunaan koneksi internet tersebut ditanggung sepenuhnya oleh Anda.</string>
+    <string name="ketentuan3">c. Platform berfungsi sebagai sarana untuk menghubungkan Anda dengan pihak ketiga yang menyediakan layanan untuk proses Pemilihan Umum.</string>
+    <string name="ketentuan4">d. Jenis layanan yang dapat digunakan melalui Platform adalah : </string>
+    <string name="ketentuan4a">(i) Memilih calon menggunakan Scan Barcode;</string>
+    <string name="ketentuan4b">(ii) Hasil perolehan suara secara real-time;</string>
+    <string name="ketentuan4c">(iii) Notifikasi terkait info penting atau kegiatan pengguna;</string>
+    <string name="ketentuan4d">(iv) Layanan lain yang dapat kami tambahkan dari waktu ke waktu;</string>
+    <string name="ketentuan5">e. Aplikasi ini merupakan sarana untuk memudahkan proses Pemilihan Umum dimana kami bekerjasama dengan penyelenggara Pemilu dan pihak-pihak yang terlibat di dalam proses Pemilu</string>
+    <string name="ketentuan6">f. Setiap fitur atau fasilitas dalam Platform dapat diperbaharui atau diubah sesuai dengan kebutuhan dan perkembangan Platform.</string>
+    <string name="ketentuan7">g. Anda dapat memberikan informasi mengenai data pribadi Anda dan Kami akan menyimpa serta menampilkannnya dalam akun Anda. Kerahasiaan data Anda terjamin dan akan digunakan untuk kelengkapan data untuk KPU.</string>
+    <string name="ketentuan8">h. Anda memahami dan menyetujui bahwa percakapan Anda dengan customer service Kami akan tersimpan secara otomatis dan diarsipkan untuk keperluan legal dan peningkatan kualitas layanan. Kerahasiaan percakapan Anda terjamin dan informasi tidak akan disebarluaskan.</string>
+    <string name="kdp1">Kami mengumpulkan informasi dari Anda ketika Anda mendaftar pada situs kami, masuk ke akun Anda, melakukan pembelian, ikut dalam kontes, dan/atau ketika Anda keluar. Data yang dikumpulkan mencakup nama Anda, alamat email, nomor telepon, dan/atau kartu kredit.
+
+Selain itu, kami menerima dan merekam informasi secara otomatis dari komputer dan peramban Anda, termasuk alamat IP Anda, perlengakapan perangkat keras dan lunak Anda, dan halaman yang Anda minta.</string>
+<string name="kdp2">Kami tidak menjual, memperdagangkan, atau pun memindahkan keluar dari pihak kami informasi pribadi Anda yang dapat diidentifikasi. Kami tidak mengikutkan pihak ketiga tepercaya yang membantu kami dalam mengoperasikan situs web kami atau menyelenggarakan bisnis kami, selama semua pihak setuju untuk menjaga kerahasiaan informasi ini.</string>
+</resources>
