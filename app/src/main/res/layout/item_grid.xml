@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="20dp"
+    android:background="@drawable/featured_bg"
+    android:focusable="true"
+   >
+
+            <ImageView
+                android:id="@+id/imgcalon"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imgcalon"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/namacalon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_toStartOf="@id/jumlahsuara"
+             />
+                <TextView
+                    android:id="@+id/jumlahsuara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="45.9%"
+                    android:textColor="@color/orange"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_alignParentEnd="true"
+                    />
+
+
+            </RelativeLayout>
+
+</RelativeLayout>
