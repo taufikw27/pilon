@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeFragment"
+        android:paddingBottom="150dp">
+
+        <View
+            android:id="@+id/idbg"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/bg_db"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="102dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hello"
+            android:fontFamily="@font/failingsky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="130dp"
+            android:text="Hello,"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@id/profile_image"
+            app:layout_constraintTop_toTopOf="@+id/profile_image"
+            />
+        <TextView
+            android:id="@+id/idusernama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/failingsky"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="200dp"
+            android:text="Nasrullah"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@id/profile_image"
+            app:layout_constraintTop_toTopOf="@+id/profile_image"
+
+
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/idmenu"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="@drawable/vie_bg"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="160dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idbg"
+            android:elevation="10dp">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:fontFamily="@font/failingsky"
+                android:text="Golput Bukan Solusi"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.123"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="204dp"
+                android:fontFamily="@font/failingsky"
+                android:text="Ayo Memilih !"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/vote"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.542" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent"-->
+        <!--        android:orientation="vertical"-->
+        <!--        android:layout_marginEnd="16dp"-->
+        <!--        android:layout_marginStart="16dp"-->
+        <!--        android:layout_marginTop="160dp"-->
+        <!--        app:layout_constraintHorizontal_bias="0.0"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toTopOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/idmenu"-->
+        <!--        android:elevation="10dp">-->
+
+        <!--        -->
+        <!--    </LinearLayout>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idmenu"
+            android:text="Perolehan Hasil Suara Sementara"
+            android:fontFamily="@font/failingsky"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20sp"
+
+
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/search"
+            android:elevation="3dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="280dp"
+            android:inputType="textPersonName"
+            android:hint="Search For"
+            android:textStyle="bold|italic"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idmenu"
+            app:layout_constraintTop_toTopOf="parent"
+            android:imeOptions="actionSend"
+            android:drawableEnd="@drawable/ic_search"
+            android:paddingEnd="10dp"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idmenu"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingClass">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBFF"
+    tools:context=".dashboard">
+
+<!--    <View-->
+<!--        android:id="@+id/idbg"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="230dp"-->
+<!--        android:background="@drawable/bg_db"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/profile_image"-->
+<!--        android:layout_width="102dp"-->
+<!--        android:layout_height="88dp"-->
+<!--        android:layout_marginTop="64dp"-->
+<!--        android:src="@drawable/profile"-->
+<!--        app:civ_border_color="@color/white"-->
+<!--        app:civ_border_width="2dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.022"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--   <LinearLayout-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="192dp"-->
+<!--       android:orientation="vertical"-->
+<!--       android:background="@drawable/vie_bg"-->
+<!--       android:layout_marginEnd="16dp"-->
+<!--       android:layout_marginStart="16dp"-->
+<!--       android:layout_marginTop="200dp"-->
+<!--       app:layout_constraintHorizontal_bias="0.0"-->
+<!--       app:layout_constraintEnd_toEndOf="parent"-->
+<!--       app:layout_constraintStart_toStartOf="parent"-->
+<!--       app:layout_constraintTop_toTopOf="parent"-->
+<!--       app:layout_constraintTop_toBottomOf="@+id/idbg"-->
+<!--       android:elevation="10dp"-->
+<!--       />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/idframe">
+        <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+            android:id="@+id/idbottomnav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:mbn_circleColor="@color/white"
+            app:mbn_countBackgroundColor="@color/red"
+            app:mbn_backgroundBottomColor="@color/orange"
+            app:mbn_selectedIconColor="@color/gold"
+            app:mbn_defaultIconColor="@color/black"/>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

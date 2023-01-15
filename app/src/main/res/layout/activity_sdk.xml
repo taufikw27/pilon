@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".syarat"
+        android:id="@+id/layout_syarat"
+        android:paddingBottom="80dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Syarat dan Ketentuan"
+            app:titleTextColor="@color/white"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:paddingEnd="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/font"
+            android:justificationMode="inter_word"
+            android:textStyle="italic"
+            android:text="@string/syarat1"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/syarat2"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/syarat3"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="1.   KETENTUAN UMUM"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/ketentuan1"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/ketentuan2"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/ketentuan3"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/ketentuan4"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/ketentuan4a"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/ketentuan4b"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/ketentuan4c"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/ketentuan4d"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

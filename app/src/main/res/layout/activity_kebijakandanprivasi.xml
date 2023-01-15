@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".kebijakandanprivasi"
+        android:id="@+id/layout_kdp"
+        android:paddingBottom="80dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Kebijakan Dan Privasi"
+            app:titleTextColor="@color/white"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:paddingEnd="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/font"
+            android:justificationMode="inter_word"
+            android:textStyle="italic"
+            android:text="@string/kdp1"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/kdp2"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="360dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/antic"
+            android:justificationMode="inter_word"
+            android:text="@string/syarat3"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
